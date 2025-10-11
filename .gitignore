@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Checkpoints and large artefacts
+checkpoints/
+checkpoints_run2/
+policy.pt
+value.pt
+actor_opt.pt
+critic_opt.pt
+training_stats_run*.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
